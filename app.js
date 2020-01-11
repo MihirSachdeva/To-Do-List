@@ -4,7 +4,8 @@ const date = require(__dirname + "/date.js");
 const mongoose = require("mongoose");
 const _ = require("lodash");
 
-mongoose.connect("mongodb+srv://admin-mihir:Teromisa123@cluster0-nx4f1.mongodb.net/todolistDB", {useUnifiedTopology: true, useNewUrlParser: true});
+mongoose.connect("mongodb+srv://USERNAME:PASSWORD@cluster0-nx4f1.mongodb.net/DATABASE", {useUnifiedTopology: true, useNewUrlParser: true});
+//Edit USERNAME, PASSWORD and DATABASE accordingly.
 
 const app = express();
 
